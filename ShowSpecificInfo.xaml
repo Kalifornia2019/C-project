@@ -1,0 +1,46 @@
+<Window
+    x:Class="WorkersSimpleCode.ShowSpecificInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:WorkersSimpleCode"
+    mc:Ignorable="d"
+    Title="Дані користувача"
+    Height="450"
+    Width="1000">
+    <Grid>
+        <DataGrid
+            x:Name="ShowSpecific"
+            HorizontalAlignment="Left"
+            Height="69"
+            Margin="10,83,0,0"
+            VerticalAlignment="Top"
+            Width="982" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Margin="10,242,0,0"
+            TextWrapping="Wrap"
+            Text="Примітка:"
+            FontSize="14"
+            FontFamily="Comic Sans MS"
+            VerticalAlignment="Top" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Margin="10,58,0,0"
+            TextWrapping="Wrap"
+            Text="Перегляд даних конкретного працівника:"
+            FontSize="14"
+            FontFamily="Comic Sans MS"
+            VerticalAlignment="Top" />
+        <TextBlock
+            HorizontalAlignment="Left"
+            Margin="10,267,0,0"
+            TextWrapping="Wrap"
+            Text="Для редагування даних працівника введіть його індекс в полі з назвою [Введіть ID працівника], після чого заповніть всі поля новими даними. "
+            FontSize="14"
+            FontFamily="Comic Sans MS"
+            Foreground="DarkRed"
+            VerticalAlignment="Top" />
+    </Grid>
+</Window>
